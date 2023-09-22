@@ -1,0 +1,1 @@
+java -cp out com.csabapro.tombok.Main

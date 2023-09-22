@@ -1,0 +1,1 @@
+jar -vfc ./out/tombok.jar ./out/com/csabapro/tombok/Main.class

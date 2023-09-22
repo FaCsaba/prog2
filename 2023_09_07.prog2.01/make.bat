@@ -1,0 +1,1 @@
+jar -vfc ./out/hello_world.jar ./out/HelloWorld.class
