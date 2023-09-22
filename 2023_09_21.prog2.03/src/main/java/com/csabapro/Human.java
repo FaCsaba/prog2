@@ -25,7 +25,12 @@ public class Human {
                     "Write in a human in the following format: LastName,Firstname,YearOfBirth,MothersName,SocialSecurityNumber");
             try { // We have yet to learn about try {} catch {}. We didn't validate input
                 human = s.next(".*,.*,[0-9]{4},.*,.*"); // My own input. In class we only used Scanner.nextLine()
-                s.nextLine();
+                /** This is an example on how to read a single variable
+                 * System.out.println("Input last name:");
+                 * lastname = s.nextLine();
+                 * and so on and so on
+                 */
+                // String a = s.nextLine();
                 correctInput = true;
             } catch (Exception e) {
                 System.out.println("Format wasn't correct!");
